@@ -1,0 +1,11 @@
+{
+  "source": {
+    "include": ["front-end/src/components", "front-end/src/views"],
+    "includePattern": ".+\\.vue$",  // This makes sure that JSDoc processes .vue files
+    "exclude": ["node_modules"]
+  },
+  "opts": {
+    "destination": "./docs",
+    "recurse": true
+  }
+}
